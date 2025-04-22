@@ -1,0 +1,14 @@
+header {
+    padding-bottom: 70px;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 25px;
+}
+
+nav ul a {
+    color: var(--color-2);
+    font-size: .6rem;
+}

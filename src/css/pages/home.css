@@ -1,0 +1,28 @@
+.header-home {
+    display: grid;
+    grid-template-columns: 1fr 600px;
+    gap: 80px;
+    
+}
+
+.header-text {
+    text-align: right;
+    align-content: center;
+}
+
+.header-home img {
+    display: inline-block;
+    width: 450px;
+    position: relative;
+    box-shadow: 300px 0 0 79px var(--color-6);
+}
+
+.header-home img::before {
+    content: '';
+    display: inline-block;
+    width: 13px;
+    height: 10px;
+    background-color: black;
+    position: absolute;
+    left: 21px;
+}
