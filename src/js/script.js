@@ -1,3 +1,3 @@
-import { currentYear } from "./modules/dom.js";
+import { burguerMenu } from "./modules/events.js";
 
-currentYear()
+burguerMenu()

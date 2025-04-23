@@ -8,28 +8,59 @@
     <link rel="stylesheet" href="./src/css/style.css">
 </head>
 
-<body>
-    <header class="color-bg-4">
-        <nav class="nav">
-            <ul>
+<body id="home">
+    <header>
+        <nav class="navbar container">
+            <!-- <div class="logo">Lucas</div> -->
+            <!-- Hamburger Icon -->
+            <div class="burger" id="burger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
                 <li><a href="">Biografia do Artista</a></li>
                 <li><a href="">Foto</a></li>
                 <li><a href="">Impressa + Destaques</a></li>
             </ul>
         </nav>
-        <div class="header-home">
-            <div class="header-text">
-                <h1>Lucas <br> Brandão</h1>
+    </header>
+
+    <main>
+        <div class="intro">
+            <div class="intro-text">
+                <h1 class="title">Lucas <br> Brandão</h1>
                 <h3>Cantor | Compositor | Instrumentista</h3>
-                <a href="">Ouça Agora</a>
+                <a class="btn" href="">Ouça Agora</a>
             </div>
-            <div>
+            <div class="intro-img">
                 <img src="./public/assets/img-headear.jpg" alt="">
             </div>
         </div>
-    </header>
+    </main>
 
-    <main></main>
+    <section class="about container">
+        <div class="about-img">
+            <img src="" alt="">
+            <a href="">LEIA MAIS</a>
+        </div>
+        <div class="about-text">
+            <h2>Sobre Lucas</h2>
+            <p>Cantor, compositor e instrumentista, Lucas Brandão une
+                reggae, MPB e soul em um repertório que celebra o amor, a
+                ancestralidade e a leveza da vida. Com influências da
+                musicalidade brasileira, seu som é um convite à dança e à
+                reflexão.
+            </p>
+            <ul>
+                <li>Localização: Jardim São José, Poá - São Paulo</li>
+                <li>Artista independente</li>
+                <li>Mais de 100 shows realizados no último ano</li>
+            </ul>
+        </div>
+    </section>
+    <article class="info"></article>
 
     <footer></footer>
     <script src="./src/js/script.js" type="module" defer></script>

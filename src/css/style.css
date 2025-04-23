@@ -1,6 +1,11 @@
-@import './utils/colors.css';
-@import './utils/typography.css';
+/* Globol style */
 @import './global/global.css';
+@import './utils/typography.css';
+@import './utils/colors.css';
 @import './global/header.css';
-@import './pages/home.css';
 @import './global/footer.css';
+
+/* utils */
+@import './utils/components.css';
+
+@import './pages/home.css';

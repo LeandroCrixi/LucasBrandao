@@ -6,17 +6,17 @@
     font-family: 'Arial', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-li{
+li {
     list-style: none;
 }
 
 /* === Typography Base Styles === */
 body {
-    font-family: var(--font-secondary);
+    font-family: sans-serif;
     font-weight: 400;
     line-height: 1.6;
     color: var(--color-1);
