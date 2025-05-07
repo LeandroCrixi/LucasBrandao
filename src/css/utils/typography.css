@@ -12,6 +12,18 @@
     /* Base for rem conversion */
 }
 
+.font-1-xs {
+    font: 400 .75rem/1.35 var(--font-secondary), sans-serif;
+}
+
+.font-1-s {
+    font: 400 .9rem/1.35 var(--font-secondary), sans-serif;
+}
+
+.font-1-xl {
+    font: 400 2rem/1.35 var(--font-secondary), sans-serif;
+}
+
 h1,
 h2,
 h3,
