@@ -145,7 +145,36 @@
     background: var(--color-bg-5);
 }
 
+/* Media Queries */
+@media(max-width: 1200px) {
+    .about-text h2 {
+        padding: 120px 0px 30px 200px;
+        margin-right: -60px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .intro {
+        background: var(--color-bg-4);
+        gap: 40px;
+    }
+
+    .about-text h2 {
+        padding: 100px 0px 30px 150px;
+        margin-right: -40px;
+        margin-left: -150px;
+    }
+
+    .about-img img {
+        height: 400px;
+    }
+}
+
 @media(max-width: 840px) {
+    .intro {
+        gap: 30px;
+    }
+
     .intro .intro-img::before {
         width: 12px;
         height: 150px;
@@ -156,20 +185,41 @@
     .intro-text h3 {
         letter-spacing: 2px;
     }
+
+    .about {
+        padding: 60px 0px;
+    }
+
+    .about-text h2 {
+        padding: 80px 0px 30px 100px;
+        margin-right: -30px;
+        margin-left: -100px;
+    }
+
+    .about-img img {
+        height: 350px;
+    }
+
+    .extra .grid div:nth-child(1)::after {
+        left: 200px;
+        height: 40px;
+    }
 }
 
 @media(max-width: 600px) {
     .intro {
         gap: 20px;
+        padding-bottom: 30px;
     }
 
     .intro-text {
         padding-top: 40px;
+        text-align: center;
     }
 
     .intro-text h1 {
         padding-bottom: 10px;
-        padding-left: 50px;
+        padding-left: 0;
     }
 
     .intro-text h3 {
@@ -178,9 +228,75 @@
     }
 
     .intro .intro-img::before {
-        width: 8px;
-        height: 80px;
-        top: 60px;
-        left: -8px;
+        display: none;
+    }
+
+    .intro img,
+    .about-img img,
+    .extra img {
+        width: 100%;
+    }
+
+    .about {
+        padding: 40px 0px;
+    }
+
+    .about-text h2 {
+        padding: 40px 0px 20px 0px;
+        margin: 0;
+        text-align: center;
+        background-color: transparent;
+    }
+
+    .about-text p,
+    .about-text ul {
+        text-align: center;
+    }
+
+    .about-text ul {
+        padding: 20px 20px;
+    }
+
+    .about-img {
+        margin-bottom: 30px;
+    }
+
+    .about-img img {
+        height: 300px;
+        object-position: center;
+    }
+
+    .extra {
+        gap: 30px;
+    }
+
+    .extra .grid {
+        gap: 20px;
+    }
+
+    .extra .grid div:nth-child(1)::after {
+        display: none;
+    }
+
+    .extra img {
+        height: 250px;
+    }
+}
+
+@media(max-width: 400px) {
+    .intro-text h1 {
+        font-size: 2.5rem;
+    }
+
+    .intro-text h3 {
+        font-size: 1rem;
+    }
+
+    .about-img img {
+        height: 250px;
+    }
+
+    .extra img {
+        height: 200px;
     }
 }
